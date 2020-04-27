@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="flipkartAutomationV2">
+
+	<listeners>
+		<listener class-name="com.flipkartAutomationV2.utilities.Reporting"/>
+	</listeners>	
+
+	<test name="FlipkartWeb Test">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.flipkartAutomationV2.testCases.TC_LoginWindow01"/>
+			<class name="com.flipkartAutomationV2.testCases.TC_LoginDDT02"/>
+		</classes>
+
+	</test>
+
+</suite>

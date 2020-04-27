@@ -1,0 +1,8 @@
+com/flipkartAutomationV2/pageObjects/LoginWindow.class
+com/flipkartAutomationV2/pageObjects/LoginHomePage.class
+com/flipkartAutomationV2/testCases/TC_LoginDDT02.class
+com/flipkartAutomationV2/utilities/XLUtils.class
+com/flipkartAutomationV2/utilities/ReadConfig.class
+com/flipkartAutomationV2/testCases/TC_LoginWindow01.class
+com/flipkartAutomationV2/testCases/BaseClass.class
+com/flipkartAutomationV2/utilities/Reporting.class
